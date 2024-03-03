@@ -143,6 +143,7 @@ exports.updateHospital = async (req, res, next) => {
     }
     res.status(200).json({ success: true, data: hospital });
   } catch (err) {
+    console.log(err);
     res.status(400).json({ success: false });
   }
 };
