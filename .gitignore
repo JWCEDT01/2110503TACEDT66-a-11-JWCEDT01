@@ -4,5 +4,6 @@ node_modules/*
 #ignore config file
 #config/config.env
 
+#test linux
 #ignore mac crache file
 .DS_Store
